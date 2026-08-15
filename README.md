@@ -25,30 +25,36 @@ cd linux-admin-lab
 
 **Step 3: Create the Company Directories**
 I created directories to represent different departments within a company.
+
 sudo mkdir -p company/{IT,HR,Finance}
 I verified that the directories were created:
 ls -l company
 
 **Step 4: Create Linux Groups**
 I created a separate Linux group for each department.
+
 sudo groupadd itteam
 sudo groupadd hrteam
 sudo groupadd financeteam
 I verified the groups:
+
 getent group itteam hrteam financeteam
 
 **Step 5: Create Linux Users**
 I created three users to represent employees in the different departments.
+
 sudo useradd -m -s /bin/bash ituser
 sudo useradd -m -s /bin/bash hruser
 sudo useradd -m -s /bin/bash financeuser
 I created passwords for each user:
+
 sudo passwd ituser
 sudo passwd hruser
 sudo passwd financeuser
 
 **Step 6: Add Users to Their Groups**
 I assigned each user to the appropriate department group.
+
 sudo usermod -aG itteam ituser
 sudo usermod -aG hrteam hruser
 sudo usermod -aG financeteam financeuser
