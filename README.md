@@ -12,8 +12,8 @@ For this project, I created and configured a Linux environment using Ubuntu in O
 - Linux command-line navigation and administration
 - User and group management
 - Directory and file management
-- File ownership and permissions using chown and chmod
-- Linux package management using apt
+- File ownership and permissions using _chown_ and _chmod_
+- Linux package management using _apt_
 - Basic system information and monitoring
 - Virtual machine setup and management
 - Troubleshooting and documenting Linux configurations
