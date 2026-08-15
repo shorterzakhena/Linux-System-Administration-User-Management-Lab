@@ -31,6 +31,7 @@ I created directories to represent different departments within a company.
 sudo mkdir -p company/{IT,HR,Finance}
 
 I verified that the directories were created:
+
 ls -l company
 
 **Step 4: Create Linux Groups**
