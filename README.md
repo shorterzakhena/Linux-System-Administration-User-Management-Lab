@@ -17,6 +17,7 @@ For this project, I created and configured a Linux environment using Ubuntu in O
 - Open the Terminal application.
 
 **Step 2: Create the Lab Directory**
+
 I created a directory to store the files used for the Linux administration lab.
 
 cd ~
@@ -24,9 +25,11 @@ mkdir linux-admin-lab
 cd linux-admin-lab
 
 **Step 3: Create the Company Directories**
+
 I created directories to represent different departments within a company.
 
 sudo mkdir -p company/{IT,HR,Finance}
+
 I verified that the directories were created:
 ls -l company
 
