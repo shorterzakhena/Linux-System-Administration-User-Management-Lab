@@ -18,6 +18,7 @@ For this project, I created and configured a Linux environment using Ubuntu in O
 
 **Step 2: Create the Lab Directory**
 I created a directory to store the files used for the Linux administration lab.
+
 cd ~
 mkdir linux-admin-lab
 cd linux-admin-lab
