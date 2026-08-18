@@ -168,4 +168,4 @@ I captured screenshots of the completed tasks, including:
 - Basic Linux troubleshooting
 - Technical documentation and project organization
 
-Created By: Zakhena K. Shorter | Linux-System_Administration-User-Management
+Author: Zakhena K.Shorter IT Professional | Recent IT Graduate
